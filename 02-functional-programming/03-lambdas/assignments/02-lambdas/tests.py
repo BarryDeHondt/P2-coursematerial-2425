@@ -17,7 +17,6 @@ def partition_by_color(cards):
     return partition(cards, lambda card: card.suit in ['clubs', 'spades'])
 
 
-
 def if_defined(name):
     return pytest.mark.skipif(name not in dir(student), reason=f'{name} not defined in student module')
 
