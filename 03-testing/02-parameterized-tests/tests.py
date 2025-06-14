@@ -7,6 +7,7 @@ from parentheses import matching_parentheses
     '',
     '()',
     '(())',
+    '()()',
     '()()()',
     '(())()',
 ])

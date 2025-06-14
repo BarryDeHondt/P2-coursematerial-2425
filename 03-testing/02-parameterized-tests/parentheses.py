@@ -9,4 +9,12 @@ def matching_parentheses(string):
                 return False
     return count == 0
 
+# def matching_parentheses(string):
+#     count = 0
+#     for char in string:
+#         if char == '(':
+#             count += 1
+#         if char == ')':
+#             count -= 1
+#     return count == 0
 
